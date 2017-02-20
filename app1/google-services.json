@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "885593972508",
+    "firebase_url": "https://checkdb-12940.firebaseio.com",
+    "project_id": "checkdb-12940",
+    "storage_bucket": "checkdb-12940.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885593972508:android:c6c2a6ea906b5c6d",
+        "android_client_info": {
+          "package_name": "com.varsha.app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885593972508-q6tvsj4k3o2jo6q20t0bnlhqtktpmp9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTnTLsFhn12CZc5QVBQ0mq-B_FzIqEECI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

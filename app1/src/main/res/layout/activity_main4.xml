@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false">
+
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="700dp"
+        android:layout_height="100dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="700dp"
+            android:layout_height="900dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.varsha.app1.Main4Activity"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#008080" />
+
+            <ImageView
+                android:id="@+id/spartan"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/spartan"
+                android:visibility="visible"
+                android:layout_below="@+id/textView1"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DB7093"
+                android:layout_below="@+id/spartan"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof1"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof2"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof1"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof3"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof2"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof4"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof3"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof5"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof4"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof6"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof5"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof7"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof6"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof8"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof7"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof9"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof8"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof10"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof9"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof11"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof10"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof12"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof11"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof13"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof12"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof14"
+                android:layout_alignParentStart="true"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_below="@+id/mprof13"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof15"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof14"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof16"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof15"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof17"
+                android:layout_alignParentStart="true"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_below="@+id/mprof16"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof18"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mprof17"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mprof19"
+                android:layout_alignParentStart="true"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_below="@+id/mprof18"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/mnumber"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:visibility="invisible" />
+
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+</ScrollView>
